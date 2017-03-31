@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TextviewActivity"></activity>
+        <activity android:name=".TextviewActivity" />
+        <activity android:name=".EdittextActivity" />
+        <activity android:name=".EdittextDisplayMessage"></activity>
     </application>
 
 </manifest>

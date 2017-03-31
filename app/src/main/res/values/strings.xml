@@ -2,5 +2,6 @@
     <string name="app_name">Android Reference App</string>
     <string-array name="spinner_ref_choice">
         <item>TextView</item>
+        <item>EditText</item>
     </string-array>
 </resources>

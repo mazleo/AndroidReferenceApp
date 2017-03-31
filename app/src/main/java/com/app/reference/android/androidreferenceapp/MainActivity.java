@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentMainAct = new Intent(MainActivity.this, TextviewActivity.class);
                     startActivity(intentMainAct);
                 }
+                else if (strSelectedItem.equals("EditText")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, EdittextActivity.class);
+                    startActivity(intentMainAct);
+                }
             }
         });
     }
