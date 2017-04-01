@@ -18,7 +18,10 @@
         </activity>
         <activity android:name=".TextviewActivity" />
         <activity android:name=".EdittextActivity" />
-        <activity android:name=".EdittextDisplayMessage"></activity>
+        <activity android:name=".EdittextDisplayMessage" />
+        <activity android:name=".EventHandlingActivity" />
+        <activity android:name=".GestureActivity" />
+        <activity android:name=".ScrollingActivity"></activity>
     </application>
 
 </manifest>

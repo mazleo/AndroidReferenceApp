@@ -3,5 +3,8 @@
     <string-array name="spinner_ref_choice">
         <item>TextView</item>
         <item>EditText</item>
+        <item>Event Handling</item>
+        <item>Scrolling</item>
+        <item>Gestures</item>
     </string-array>
 </resources>

@@ -36,6 +36,18 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentMainAct = new Intent(MainActivity.this, EdittextActivity.class);
                     startActivity(intentMainAct);
                 }
+                else if (strSelectedItem.equals("Event Handling")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, EventHandlingActivity.class);
+                    startActivity(intentMainAct);
+                }
+                else if (strSelectedItem.equals("Scrolling")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, ScrollingActivity.class);
+                    startActivity(intentMainAct);
+                }
+                else if (strSelectedItem.equals("Gestures")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, GestureActivity.class);
+                    startActivity(intentMainAct);
+                }
             }
         });
     }
