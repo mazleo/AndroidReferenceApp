@@ -21,7 +21,9 @@
         <activity android:name=".EdittextDisplayMessage" />
         <activity android:name=".EventHandlingActivity" />
         <activity android:name=".GestureActivity" />
-        <activity android:name=".ScrollingActivity"></activity>
+        <activity android:name=".ScrollingActivity" />
+        <activity android:name=".FragmentActivity" />
+        <activity android:name=".OverflowMenuActivity"></activity>
     </application>
 
 </manifest>

@@ -6,5 +6,10 @@
         <item>Event Handling</item>
         <item>Scrolling</item>
         <item>Gestures</item>
+        <item>Fragments</item>
+        <item>Overflow Menu</item>
     </string-array>
+    <string name="red_string">Red</string>
+    <string name="blue_string">Blue</string>
+    <string name="green_string">Green</string>
 </resources>

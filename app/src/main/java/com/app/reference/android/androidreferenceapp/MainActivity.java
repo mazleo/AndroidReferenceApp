@@ -48,6 +48,14 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentMainAct = new Intent(MainActivity.this, GestureActivity.class);
                     startActivity(intentMainAct);
                 }
+                else if (strSelectedItem.equals("Fragments")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, FragmentActivity.class);
+                    startActivity(intentMainAct);
+                }
+                else if (strSelectedItem.equals("Overflow Menu")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, OverflowMenuActivity.class);
+                    startActivity(intentMainAct);
+                }
             }
         });
     }
