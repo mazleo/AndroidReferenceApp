@@ -64,6 +64,14 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentMainAct = new Intent(MainActivity.this, LifecycleActivity.class);
                     startActivity(intentMainAct);
                 }
+                else if (strSelectedItem.equals("Services")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, ServicesActivity.class);
+                    startActivity(intentMainAct);
+                }
+                else if (strSelectedItem.equals("Bound Services")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, BoundServicesActivity.class);
+                    startActivity(intentMainAct);
+                }
             }
         });
     }
