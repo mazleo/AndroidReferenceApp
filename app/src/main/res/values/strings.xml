@@ -8,6 +8,8 @@
         <item>Gestures</item>
         <item>Fragments</item>
         <item>Overflow Menu</item>
+        <item>Threads</item>
+        <item>Activity Lifecycle</item>
     </string-array>
     <string name="red_string">Red</string>
     <string name="blue_string">Blue</string>

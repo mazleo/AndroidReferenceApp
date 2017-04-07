@@ -56,6 +56,14 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentMainAct = new Intent(MainActivity.this, OverflowMenuActivity.class);
                     startActivity(intentMainAct);
                 }
+                else if (strSelectedItem.equals("Threads")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, ThreadsActivity.class);
+                    startActivity(intentMainAct);
+                }
+                else if (strSelectedItem.equals("Activity Lifecycle")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, LifecycleActivity.class);
+                    startActivity(intentMainAct);
+                }
             }
         });
     }

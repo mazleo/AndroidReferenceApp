@@ -23,7 +23,10 @@
         <activity android:name=".GestureActivity" />
         <activity android:name=".ScrollingActivity" />
         <activity android:name=".FragmentActivity" />
-        <activity android:name=".OverflowMenuActivity"></activity>
+        <activity android:name=".OverflowMenuActivity" />
+        <activity android:name=".AnimationsActivity" />
+        <activity android:name=".LifecycleActivity" />
+        <activity android:name=".ThreadsActivity"></activity>
     </application>
 
 </manifest>
