@@ -72,6 +72,18 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentMainAct = new Intent(MainActivity.this, BoundServicesActivity.class);
                     startActivity(intentMainAct);
                 }
+                else if (strSelectedItem.equals("ListView")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, ListviewActivity.class);
+                    startActivity(intentMainAct);
+                }
+                else if (strSelectedItem.equals("Alert Dialog")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, AlertDialogActivity.class);
+                    startActivity(intentMainAct);
+                }
+                else if (strSelectedItem.equals("Seekbar")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, SeekbarActivity.class);
+                    startActivity(intentMainAct);
+                }
             }
         });
     }

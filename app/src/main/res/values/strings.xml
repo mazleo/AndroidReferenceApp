@@ -12,8 +12,18 @@
         <item>Activity Lifecycle</item>
         <item>Services</item>
         <item>Bound Services</item>
+        <item>ListView</item>
+        <item>Alert Dialog</item>
+        <item>Seekbar</item>
     </string-array>
     <string name="red_string">Red</string>
     <string name="blue_string">Blue</string>
     <string name="green_string">Green</string>
+    <string name="alert_dialog_button">Show Alert Dialog</string>
+    <string name="alert_dialog_title">Alert Dialog</string>
+    <string name="alert_dialog_message">Yes or No?</string>
+    <string name="alert_dialog_positive">Yes</string>
+    <string name="alert_dialog_negative">No</string>
+    <string name="seekbar_title">SeekBar</string>
+    <string name="seekbar_init_text">Rating: 0</string>
 </resources>

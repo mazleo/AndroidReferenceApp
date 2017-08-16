@@ -35,7 +35,11 @@
         <service
             android:name=".BoundServices"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+
+        <activity android:name=".ListviewActivity" />
+        <activity android:name=".AlertDialogActivity" />
+        <activity android:name=".SeekbarActivity"></activity>
     </application>
 
 </manifest>
