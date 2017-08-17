@@ -84,6 +84,18 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentMainAct = new Intent(MainActivity.this, SeekbarActivity.class);
                     startActivity(intentMainAct);
                 }
+                else if (strSelectedItem.equals("Toast")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, ToastActivity.class);
+                    startActivity(intentMainAct);
+                }
+                else if (strSelectedItem.equals("Return Data")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, ReturnDataActivity.class);
+                    startActivity(intentMainAct);
+                }
+                else if (strSelectedItem.equals("Recycler View")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, RecyclerViewActivity.class);
+                    startActivity(intentMainAct);
+                }
             }
         });
     }

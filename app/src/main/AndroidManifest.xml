@@ -39,7 +39,11 @@
 
         <activity android:name=".ListviewActivity" />
         <activity android:name=".AlertDialogActivity" />
-        <activity android:name=".SeekbarActivity"></activity>
+        <activity android:name=".SeekbarActivity" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".ReturnDataActivity" />
+        <activity android:name=".ReturnDataSecondActivity" />
+        <activity android:name=".RecyclerViewActivity"></activity>
     </application>
 
 </manifest>

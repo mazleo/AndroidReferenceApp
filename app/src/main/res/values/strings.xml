@@ -15,6 +15,9 @@
         <item>ListView</item>
         <item>Alert Dialog</item>
         <item>Seekbar</item>
+        <item>Toast</item>
+        <item>Return Data</item>
+        <item>Recycler View</item>
     </string-array>
     <string name="red_string">Red</string>
     <string name="blue_string">Blue</string>
