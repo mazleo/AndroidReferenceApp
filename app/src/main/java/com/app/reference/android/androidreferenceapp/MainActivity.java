@@ -96,6 +96,10 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentMainAct = new Intent(MainActivity.this, RecyclerViewActivity.class);
                     startActivity(intentMainAct);
                 }
+                else if (strSelectedItem.equals("Media Player")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, MediaPlayerActivity.class);
+                    startActivity(intentMainAct);
+                }
             }
         });
     }

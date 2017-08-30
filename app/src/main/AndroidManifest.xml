@@ -43,7 +43,8 @@
         <activity android:name=".ToastActivity" />
         <activity android:name=".ReturnDataActivity" />
         <activity android:name=".ReturnDataSecondActivity" />
-        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".MediaPlayerActivity"></activity>
     </application>
 
 </manifest>
