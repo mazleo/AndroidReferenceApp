@@ -19,6 +19,8 @@
         <item>Return Data</item>
         <item>Recycler View</item>
         <item>Media Player</item>
+        <item>Shared Preference</item>
+        <item>Sqlite</item>
     </string-array>
     <string name="red_string">Red</string>
     <string name="blue_string">Blue</string>
@@ -31,4 +33,6 @@
     <string name="seekbar_title">SeekBar</string>
     <string name="seekbar_init_text">Rating: 0</string>
     <string name="play_button">Play</string>
+    <string name="sp_button">Save</string>
+    <string name="sp_edittext">Enter text</string>
 </resources>

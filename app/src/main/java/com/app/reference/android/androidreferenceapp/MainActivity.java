@@ -100,6 +100,14 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentMainAct = new Intent(MainActivity.this, MediaPlayerActivity.class);
                     startActivity(intentMainAct);
                 }
+                else if (strSelectedItem.equals("Shared Preference")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, SharedPreferenceActivity.class);
+                    startActivity(intentMainAct);
+                }
+                else if (strSelectedItem.equals("Sqlite")) {
+                    Intent intentMainAct = new Intent(MainActivity.this, SqliteActivity.class);
+                    startActivity(intentMainAct);
+                }
             }
         });
     }

@@ -44,7 +44,9 @@
         <activity android:name=".ReturnDataActivity" />
         <activity android:name=".ReturnDataSecondActivity" />
         <activity android:name=".RecyclerViewActivity" />
-        <activity android:name=".MediaPlayerActivity"></activity>
+        <activity android:name=".MediaPlayerActivity" />
+        <activity android:name=".SharedPreferenceActivity" />
+        <activity android:name=".SqliteActivity"></activity>
     </application>
 
 </manifest>
